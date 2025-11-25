@@ -301,7 +301,7 @@ Search your internal knowledge base for 3 similar topics or content angles that 
 **Output Requirements:**
 - Return a purely JSON response adhering to the schema provided.
 - **LANGUAGE:** The entire content of the JSON response (verdict, analysis, advice, titles, insights) MUST be in the **Target Language** requested by the user (English or Chinese).
-`,wk=new QL({apiKey:"PLACEHOLDER_API_KEY"}),Mk=async(e,t,n)=>{const r="gemini-2.5-flash",a=`
+`,wk=new QL({apiKey:void 0}),Mk=async(e,t,n)=>{const r="gemini-2.5-flash",a=`
   Target Language: ${n==="zh"?"Chinese (Simplified)":"English"}
   
   Analyze this content idea:
